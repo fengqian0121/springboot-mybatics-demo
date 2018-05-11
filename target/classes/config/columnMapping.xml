@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planTypes>
+    <planType id="11001" value="北京非定向">
+        <colExcel id="1">
+            <colDb>1</colDb>
+        </colExcel>
+        <colExcel id="2">
+            <colDb>2</colDb>
+        </colExcel>
+        <colExcel id="3">
+            <colDb>3</colDb>
+        </colExcel>
+        <colExcel id="4">
+            <colDb>4</colDb>
+        </colExcel>
+        <colExcel id="5">
+            <colDb>5</colDb>
+        </colExcel>
+        <colExcel id="6">
+            <colDb>6</colDb>
+        </colExcel>
+    </planType>
+    <planType id="12001" value="天津非定向">
+        <colExcel id="1">
+            <colDb>1</colDb>
+        </colExcel>
+        <colExcel id="2">
+            <colDb>2</colDb>
+        </colExcel>
+        <colExcel id="3">
+            <colDb>6</colDb>
+        </colExcel>
+        <colExcel id="4">
+            <colDb>3</colDb>
+        </colExcel>
+        <colExcel id="5">
+            <colDb>4</colDb>
+        </colExcel>
+        <colExcel id="6">
+            <colDb>5</colDb>
+        </colExcel>
+    </planType>
+</planTypes>

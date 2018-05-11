@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provinces>
+    <province id="11">北京市</province>
+    <province id="12">天津省</province>
+    <province id="13">河北省</province>
+    <province id="14">山西省</province>
+    <province id="15">内蒙古自治区</province>
+
+    <province id="21">辽宁省</province>
+    <province id="22">吉林省</province>
+    <province id="23">黑龙江省</province>
+
+    <province id="31">上海市</province>
+    <province id="32">江苏省</province>
+    <province id="33">浙江省</province>
+    <province id="34">安徽省</province>
+    <province id="35">福建省</province>
+    <province id="36">江西省</province>
+    <province id="37">山东省</province>
+
+    <province id="41">河南省</province>
+    <province id="42">湖北省</province>
+    <province id="43">湖南省</province>
+    <province id="44">广东省</province>
+    <province id="45">广西自治区</province>
+    <province id="46">海南省</province>
+
+    <province id="50">重庆市</province>
+    <province id="51">四川省</province>
+    <province id="52">贵州市</province>
+    <province id="53">云南省</province>
+    <province id="54">西藏自治区</province>
+
+    <province id="61">陕西省</province>
+    <province id="62">甘肃省</province>
+    <province id="63">青海省</province>
+    <province id="64">宁夏自治区</province>
+    <province id="65">新疆自治区</province>
+</provinces>

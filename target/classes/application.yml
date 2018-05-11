@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: dev
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        initialSize: 20
+        minIdle: 50
+        maxActive: 100
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 200
+        filrers: stat,wall,log4j
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+mybatis:
+  config-location: classpath:mybatis/mybatis_base.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.example.model
+  spring.datasource.type: com.alibaba.druid.pool.DruidDataSource
+
+#pagehelper
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
